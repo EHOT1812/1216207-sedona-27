@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Илья Исаченков](https://up.htmlacademy.ru/htmlcss/27/user/1216207).
-* Наставник: `Неизвестно`.
+* Наставник: [Михон Кислый] (https://htmlacademy.ru/profile/smart-grizzly).
 
 ---
 
