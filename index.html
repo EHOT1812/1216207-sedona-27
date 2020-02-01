@@ -10,7 +10,7 @@
         <a class="main-heder-logo" href="index.html">
           <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип «Sedona»" class="logo-sedona">
           </a>
-        <ul>
+        <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
           <li><a href="fotovideo.html">Фото и Видео</a></li>
           <li><a href="carta.html">Карта штата</a></li>
@@ -94,13 +94,33 @@
                 </li>
             </ul>
         </section>
-
-        <section>
+        <section class="form-back">
             <h3 class="brown-buttom">Поиск гостиницы в Седона</h3>
-            <img src="img/calendar.svg" width="21" height="22" alt="календарь" class="calendar">
-            <img src="img/calendar.svg" width="21" height="22" alt="календарь" class="calendar">
-            <a class="blue-buttom">Найти</a>
-            <!-- Здесть будет форма -->
+            <form class="form-back" action="hotels.html" method="post">
+                <p class="form-back">
+                <label for="form-back">Дата заезда:</label> 
+                <input id="form-back" type="text" name="date" value="" placeholder="24 апреля 2017">
+                <img src="img/calendar.svg" width="21" height="22" alt="календарь" class="calendar"><br>
+                </p>
+                <p class="form-back">
+                <label for="form-back">Дата выезда:</label>
+                <input id="form-back" type="text" name="date" value="" placeholder="4 июля 2017">
+                <img src="img/calendar.svg" width="21" height="22" alt="календарь" class="calendar"><br>
+                </p>
+                <p class="form-back">
+                <label for="form-back">Взрослые:</label>
+                    <span class="minus">-</span>
+                    <input id="form-back" type="text" value="2" size="5"/>
+                    <span class="plus">+</span>
+                </p>
+                <lable for="form-back">Дети:</lable>
+                <p class="form-back">
+                    <span class="minus">-</span>
+                    <input id="form-back" type="text" value="0" size="5"/>
+                    <span class="plus">+</span>
+                </p>
+               <button class="button" type="submit" href="hotels.html">Найти</button>
+            </form>
         </section>
     </main>
      <footer class="main-footer">
