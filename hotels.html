@@ -21,38 +21,54 @@
     <section>
             <h2>Инфраструктура:</h2>
                 <img src="img/filter-background.jpg" width="1200" height="562" alt="Картинка горы" class="filter-background">
-            <ul>
-                <li>
+        <form class="checkbox" action="hotels.html" method="post">
+            <div>
+                    <input type="checkbox" name="checkbox-on" id="checkbox-on" checked>
                     <img src="img/checkbox-on.svg" width="27" height="23" alt="выбран бассейн" class="checkbox-on">
-                    <p>Бассейн</p>
-                 </li>
-                <li>
+                    <label for="checkbox-on">Бассейн</label>
+            </div>
+            <div>
+                    <input type="checkbox" name="checkbox-off" id="checkbox-off">
                     <img src="img/checkbox-off.svg" width="27" height="23" alt="не выбрана парковка" class="checkbox-off">
-                    <p>Парковка</p>
-                 </li>
-                <li>
+                    <label for="checkbox-off">Парковка</label>
+            </div>
+            <div>
+                    <input type="checkbox" name="checkbox-off" id="checkbox-off2">
                     <img src="img/checkbox-off.svg" width="27" height="23" alt="не выбран Wi-Fi" class="checkbox-off">
-                    <p>Wi-Fi</p>
-                 </li>
-            </ul>
+                    <label for="checkbox-off2">Wi-Fi</label>
+            </div>   
               <h2>Тип жилья:</h2>
-            <ul>
-                <li>
+            <div>
+                    <input type="checkbox" name="checkbox-on" id="checkbox-on2" checked>
                     <img src="img/checkbox-on.svg" width="27" height="23" alt="выбрана гостиница" class="checkbox-on">
-                    <p>Гостиница</p>
-                 </li>
-                <li>
+                    <label for="checkbox-on2">Гостиница</label>
+            </div>
+            <div>
+                    <input type="checkbox" name="checkbox-on" id="checkbox-on3" checked>
                     <img src="img/checkbox-on.svg" width="27" height="23" alt="выбран мотель" class="checkbox-on">
-                    <p>Мотель</p>
-                 </li>
-                <li>
+                    <label for="checkbox-on3">Мотель</label>
+            </div>
+            <div>
+                    <input type="checkbox" name="checkbox-on" id="checkbox-on4" checked>
                     <img src="img/checkbox-on.svg" width="27" height="23" alt="выбраны апартаменты" class="checkbox-on">
-                    <p>Апартаменты</p>
-                 </li>
-            </ul>
-            <p>Стоимость в сутки (р):</p>
-             <!-- Здесть будет форма выбора стоимости -->
-            <button class="form-buttom">Показать</button>
+                    <label for="checkbox-on4">Апартаменты</label>
+            </div>
+            <div class="filter-range">
+            <div class="filter-range-title">Стоимость в сутки (р):</div>
+            <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+            </div>
+            <div class="range-controls">
+            <div class="scale">
+            <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+            </div>
+            <button class="btn-transparent" type="submit">Показать</button>
+            </div>
+        </form>
         </section>
         <section>
             <h2>Найдено 3:</h2>
