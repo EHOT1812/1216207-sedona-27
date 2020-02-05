@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>«Sedona»</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
      <header class="main-header">
@@ -22,38 +25,44 @@
       <h1 class="visually-hidden">Поиск гостиниц Sedona</h1>
         <section>
                <a>
-                   <img src="img/intro-welcome.svg" width="459" height="353" alt="Логотип Приветствия">
+                   <img src="img/intro-welcome.svg" width="459" height="353" alt="Логотип Приветствия" class="intro">
                </a>
                <img src="img/background-photo.jpg" width="1200" height="773" alt="главная" class="background-photo">
                <img src="img/intro-mask.svg" width="1203" height="59" alt="белая картинка стрелочка" class="intro-mask">
             <h2 class="visually-hidden">Преимущества</h2>
-            <ul>
-                <li>
-                    <p>Седона - небольшой город в Аризоне, заслуживающий большего!</p>
+            <ul class="descript">
+                <li class="description">
+                    <h3>Седона - небольшой город в Аризоне, заслуживающий большего!</h3>
                     <p>Рассмотрим 5 причин, по которым седона круче, чем Гранд каньон!</p>
                 </li>
             </ul>
         </section>
         <section>
-            <h2 class="blue-back">Настоящий городок</h2>
-                <p>~ №1 ~</p><br>
-                <p>Седона - не атракцион для туристов,</p><br>
-                <p>там течет своя жизнь</p>
+            <div class="blue-back">
+                <ul class="real">
+                    <li class="text-style-1">
+                        <h3>Настоящий городок</h3>
+                        <p>~ №1 ~</p><br>
+                        <p>Седона - не атракцион для туристов,</p><br>
+                        <p>там течет своя жизнь</p>
+                   </li>     
+            </ul>
+            </div>
                     <img src="img/feature-picture.jpg" width="800" height="256" alt="картинка города" class="feature-picture" >
         <section>
-            <h2>Рекомендации</h2>
-            <ul>
-                <li>
+            <h2 class="visually-hidden">Рекомендации</h2>
+            <ul class="feature-list">
+                <li class="feature-icon">
                     <img src="img/icon-1.svg" width="75" height="72" alt="Домик" class="icon-1">
                     <h3>Жильё</h3>
                         <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                 </li>
-                <li>
+                <li class="feature-icon">
                     <img src="img/icon-3.svg" width="74" height="70" alt="Бургер" class="icon-3">
                     <h3>Еда</h3>
                         <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                 </li>
-                <li>
+                <li class="feature-icon">
                     <img src="img/icon-2.svg" width="64" height="76" alt="Подарок" class="icon-2">
                     <h3>Сувениры</h3>
                         <p>Не только китайского, но и местного производства</p>
@@ -62,58 +71,66 @@
         </section>
         <section>
             <img src="img/layer-5.jpg" width="800" height="256" alt="Мост дьявола" class="layer-5">
-             <h2 class="blue-back">Там есть мост дьявола</h2>
-                <p>~ №2 ~</p><br>
-                <p>Да, понему можно пройти! Если конечно вы осмелитесь</p><br>
+             <div class="blue-back">
+                <ul clas="most">
+                    <li class="devil">
+                    <h3>Там есть мост дьявола</h3>
+                    <p>~ №2 ~</p><br>
+                    <p>Да, понему можно пройти! Если конечно вы осмелитесь</p><br>
+                    </li>
+                </ul>
+            </div>
         </section>
         <section>
             <h2 class="visually-hidden">Достопримечательности</h2>
-            <ul>
-                <li>
+            <ul class="feature-list">
+                <li class="Attractions">
                     <h3>Небольшая площадь</h3>
                         <p>- №3 -</p><br>
                         <p>Все достопримечательности находятся очень близко</p>
                 </li>
-                <li>
+                <li class="Attractions">
                     <h3>Красивая дорога</h3>
                         <p>- №4 -</p><br>
                         <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                 </li>
-                <li>
+                <li class="Attractions">
                     <h3>Мало туристов</h3>
                         <p>- №5 -</p><br>
                         <p>Большинство едет в Гранд каньон и толпится там</p>
                 </li>
             </ul>
         </section>
-            <h2>Заинтересовались?</h2>
-            <img src="img/map.jpg" width="1200" height="593" alt="Карта штата" class="map">
-            <ul>
-                <li>
+            <ul class="interes">
+               <h3 class="interested">Заинтересовались?</h3>
+                <li class="treval">
                     <p>Укажите предполагаемые даты поездки, и мы подберем вам лучшее предложения гостиниц в Седона</p>
                 </li>
             </ul>
+             <div class="brown-buttom">
+            <h3 class="brown-buttom">Поиск гостиницы в Седона</h3>
+            </div>
         </section>
         <section>
-            <h3 class="brown-buttom">Поиск гостиницы в Седона</h3>
+             <img src="img/map.jpg" width="1200" height="593" alt="Карта штата" class="map">
             <form class="form-back" action="hotels.html" method="post">
-                <div>
+                <div class="race">
                 <label for="race">Дата заезда:</label> 
                 <input id="race" type="text" name="date" value="" placeholder="24 апреля 2017">
                 <img src="img/calendar.svg" width="21" height="22" alt="календарь" class="calendar"><br>
                 </div>
-                <div>
+                <div class="checkout">
                 <label for="checkout">Дата выезда:</label>
                 <input id="checkout" type="text" name="date" value="" placeholder="4 июля 2017">
                 <img src="img/calendar.svg" width="21" height="22" alt="календарь" class="calendar"><br>
                 </div>
-                <div>
+                <div class="checkin">
                 <label for="checkin">Взрослые:</label>
                     <span class="minus">-</span>
                     <input id="checkin" type="text" value="2" size="5"/>
                     <span class="plus">+</span>
                 </div>
-                <div>
+                <div class="children">
                     <label for="children">Дети:</label>
                     <span class="minus">-</span>
                     <input id="children" type="text" value="0" size="5"/>
@@ -127,12 +144,12 @@
          <p class="footer-contacts">#Visitsedona</p>
           <div class="footer-social">
               <ul>
-                <li><a href="#"> <img src="img/twitter.svg" width="17" height="15" alt="твиттер" class="tw-ikon">Твиттер</a></li>
-                <li><a href="#"> <img src="img/fb-icon.svg" width="12" height="22" alt="фейсбук" class="fb-icon">Фейсбук</a></li>
-                <li><a href="#"> <img src="img/youtube.svg" width="20" height="16" alt="Ютуб" class="youtube-icon">Ютуб</a></li>
+                <li class="social-button"><a href="#"> <img src="img/twitter.svg" width="17" height="15" alt="твиттер" class="tw-icon">Твиттер</a></li>
+                <li class="social-button"><a href="#"> <img src="img/fb-icon.svg" width="12" height="22" alt="фейсбук" class="fb-icon">Фейсбук</a></li>
+                <li class="social-button"><a href="#"> <img src="img/youtube.svg" width="20" height="16" alt="Ютуб" class="youtube-icon">Ютуб</a></li>
               </ul>
           </div>
-          <p>
+          <p> websate by
               <a href="https://htmlacademy.ru/intensive/htmlcss"> <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="HTMLAcademy" class="logo-htmlacademy">HTML Academy</a>
           </p>
       </footer>     

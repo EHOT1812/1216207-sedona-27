@@ -1,0 +1,523 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700px;
+  color: #000000;
+  text-transform: uppercase;
+  
+  width: 1200px;
+  height: 2762px;    
+  background-color: rgb(242, 242, 242);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #f9f6f3;
+
+  background-color: #f9f6f3;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus{
+  background-color: #f9f6f3;
+}
+
+.background-photo {
+  width: 1200px;
+  height: 773px;
+  object-fit: contain;
+}
+/*Как сделать наложения ? */
+.intro-mask {
+  width: 1203px;
+  height: 59px;
+  object-fit: contain;
+}
+.intro {
+  width: 459px;
+  height: 353px;
+  object-fit: contain;
+}
+.descript {
+  width: 1200px;
+  height: 216px; 
+  list-style: none;
+}
+/* Как сделать так что бы фраза была по середеине и с переносом как на макете? */
+.description {
+  text-align: center;
+}
+.description h3 {
+  width:  100%;
+  height: 100%;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: center;
+  color: #000000;
+}
+
+.description p {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #333333;
+}
+.blue-back {
+  width: 400px;
+  height: 256px;
+  background-color: #81b3d2;
+}
+
+.real {
+  text-align: center;
+}
+
+.text-style-1 h3 {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.text-style-1 p {
+  font-size: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+*/ Как поставить картинку рядом с блоком Настоящий городок? */
+.feature-picture {
+  height: 50%%;
+  float: right;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-icon {
+  text-align: center;
+}
+
+.feature-icon icon-1 {
+  width: 75px;
+  height: 72px;
+}
+
+.feature-icon h3 {
+  width: 67px;
+  height: 19px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #000000;
+}
+
+.feature-icon p {
+  width: 252px;
+  height: 34px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333333;
+}
+.devil p {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.devil h3 {
+  font-size: 21px;
+  font-weight: bold; 
+  color: #ffffff;
+  text-align: center;
+}
+
+./*
+ Вопрос как переместить картинку правее.
+  layer-5 {
+  height: 50%%;
+  float: left;
+}*/
+
+.Attractions p {
+  width: 208px;
+  height: 143px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #333333;
+}
+
+.Attractions h3 {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000000
+}
+
+.interested h3 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  color: #000000;
+}
+
+.treval p {
+  width: 434px;
+  height: 96px;
+  font-family: PTSans;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: #333333;    
+}
+
+.map {
+  width: 1200px;
+  height: 593px;
+  float: none;
+}
+
+.brown-buttom {
+  width: 568px;
+  height: 86px;
+  background-color: #766357;
+}
+
+.brown-buttom h3 {
+  width: 289px;
+  height: 18px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: center;
+  color: #ffffff;
+} 
+
+.form-back {
+  width: 568px;
+  height: 395px;
+  box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
+}
+
+.race-form input[type="text"] {
+  width: 91px;
+  height: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.86;
+  text-align: left;
+  color: #000000;  
+}
+
+.race-form input:focus {
+  border-color: aqua;
+}
+
+.checkout-form input[type="text"] {
+  width: 95px;
+  height: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.86;
+  text-align: left;
+  color: #000000;
+} 
+
+.checkout-form input:focus {
+  border-color: aqua;
+}
+.checkin-form input[type="text"] {
+  width: 71px;
+  height: 11px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.86;
+  text-align: left;
+  color: #000000;
+}
+ 
+.checkin-form input:focus {
+  border-color: aqua;
+}
+
+.children-form input[type="text"] {
+  width: 38px;
+  height: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.86;;
+  text-align: left;
+  color: #000000;
+}
+
+.chilcdren-form input:focus {
+  border-color: aqua;
+}
+
+.button {
+  width: 458px;
+  height: 58px;
+  background-color: #81b3d2;
+}
+
+.footer-contacts { 
+  width: 136px;
+  height: 16px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: center;
+  color: #000000;
+}
+/* Как сделать логотив соц. сети по середине? */
+.social-button {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+
+
+
+/* hotel.html */
+
+.infrastructure {
+  width: 139px;
+  height: 13px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-align: left;
+  color: #ffffff;
+}
+
+.checkbox-form input[type="checkbox"] {
+  width: 27px;
+  height: 23px;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+.checkbox-form input:focus {
+  border-color: aqua;
+}
+
+/* Тут возник вопрос как сделать надписи бассей и т.д. тоже белыми     
+.lable {
+  width: 57px;
+  height: 13px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: #ffffff;
+}*/
+
+.house {
+  width: 91px;
+  height: 13px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-align: left;
+  color: #ffffff;  
+}
+
+.filter-range-title {
+  width: 183px;
+  height: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-align: left;
+  color: #ffffff;
+}
+
+.btn-transparent {
+  width: 133px;
+  height: 32px;
+  border: solid 2px #ffffff;
+}
+
+.found {
+  width: 115px;
+  height: 22px;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+}
+
+.sort {
+  width: 75px;
+  height: 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: #000000;
+}
+
+.price {
+  width: 48px;
+  height: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: #81b3d2;
+}
+
+.type {
+  width: 49px;
+  height: 8px;
+  opacity: 0.3;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.rating {
+  width: 75px;
+  height: 11px;
+  opacity: 0.3;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.icon-up-dir {
+  width: 11px;
+  height: 10px;
+  background-color: #cacaca;
+}
+
+.icon-down-dir {
+  width: 11px;
+  height: 10px;
+  object-fit: contain;
+  background-color: 81b3d2;
+}
+
+.catalog-item-imege{
+  width: 135px;
+  height: 90px;    
+}
+
+.Amara-Resort-Sp {
+  width: 210px;
+  height: 16px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: left;
+  color: #000000;
+}
+
+.hotel {
+  width: 77px;
+  height: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: #333333;
+}
+
+.to-rating {
+  width: 66px;
+  height: 11px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: #333333;
+}
+
+/* не смог разобраться как сделать кнопки подробнее и забронировать подскажите пожалуйста */
+
+.star {
+  width: 18px;
+  height: 17px;
+}
+
+.to-rating {
+  width: 81px;
+  height: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #666666;
+}
+
+.backgroun {
+  width: 110px;
+  height: 27px;
+  background-color: #f2f2f2;
+}
+
+.Desert-Quail-inn {
+  width: 170px;
+  height: 20px;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: left;
+  color: #000000;
+}
+
+.Motel{
+  width: 52px;
+  height: 11px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: #333333;       
+}
+
+.Villas-at-Poco-Diablo {
+  width: 227px;
+  height: 16px;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.Apartments {
+  width: 96px;
+  height: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: left;
+  color: #333333;
+}
