@@ -41,6 +41,9 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
+    
+/*Временно для сетки*/
+  min-height: 56px;
 }
 
 .site-navigation a {
@@ -70,12 +73,6 @@ a {
   object-fit: contain;
 }
 
-.descript {
-  margin: 0;
-  padding: 0;
-  width: 1200px;
-  height: 216px; 
-  list-style: none;
 }
 
 .description {
@@ -727,7 +724,6 @@ a {
   text-align: left;
   color: #333333;
 }
-/* Возник правильно ли сделаны кнопка и ссылка? */ 
 .button-blue {
   width: 110px;
   height: 27px;
@@ -748,4 +744,152 @@ a {
   padding: 5px 15px;
   text-decoration: none;
   color: #ffffff;
+}
+
+
+
+
+/* ----- Сеточные стили ----- */
+
+html, 
+body {
+ min-width: 1200;
+ min-height: 2762;
+}
+
+.main-header {
+  margin-bottom: 0px;
+    
+/* Временно для сетки */
+  min-height: 773px;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/* Временно для сетки */
+  min-height: 773px;
+  background-color: transparent;
+    
+}
+
+.main-header-logo {
+  order: 3;
+  width: 140px;
+  height: 71px;
+}
+
+.welcom {
+  width: 1200px;
+  height: 773px;  
+}
+
+.welcom .intro {   
+ min-width: 459px;
+ min-height: 353px;
+}
+
+.welcom 
+.background-photo {
+  min-width: 1200px;
+  min-height: 773px;
+}
+
+.welcom 
+.intro-mask{
+  min-width: 1203px;
+  min-height: 59px;
+}
+
+.sedona-reasons {
+  padding: 0;
+  margin: 0;
+  min-width: 1200px;
+  min-height: 216px;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+.main-navigation-wrapper 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-block {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+/* не пойму в чем проблема почему этот блок наезжает на блок шапки*/
+.block {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+    
+  min-height: 256px;
+}
+
+.text-style-1 {
+  width: 400px; 
+}
+
+.block1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  list-style: none;
+    
+  min-height: 256px;
+}
+
+.date {
+  display: block;    
+  min-height: 256;
+}
+
+.main-footer {
+  padding: 60px 0;
+  margin-top: 65px;
+  
+  /* Временно для сетки */
+  background: none;
+  min-height: 180px;
+}
+
+.main-footer 
+.container-footer {
+  display: flex;
+}
+
+.footer-contacts {
+  width: 320px;
+  margin: 0;
+
+  /* Временно для сетки */
+  min-height: 100px;
+}
+
+.footer-social {
+  width: 145px;
+
+  /* Временно для сетки */
+  min-height: 100px;
+}
+
+.footer-copyright {
+  width: 150px;
+  margin: 0;
+
+  /* Временно для сетки */
+  min-height: 100px;
 }
