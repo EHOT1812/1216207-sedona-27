@@ -7,79 +7,70 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-heder-logo" href="index.html">
-          <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип «Sedona»" class="logo-sedona">
-        </a>
-        <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="fotovideo.html">Фото и Видео</a></li>
-          <li><a href="carta.html">Карта штата</a></li>
-           <li><a href="hotels.html">Гостиницы</a></li>
-          </ul>
-      </nav>
-    </header>
-    <section>
-                <img src="img/filter-background.jpg" width="1200" height="562" alt="Картинка горы" class="filter-background">
-        <form class="checkbox" action="hotels.html" method="post">
-              <h2 class="infrastructure">Инфраструктура:</h2>
-            <div>
-                    <input type="checkbox" name="checkbox-on" id="checkbox-on" checked>
-                    <label for="checkbox-on" class="swimming-pool">Бассейн</label>
-            </div>
-            <div>
-                    <input type="checkbox" name="checkbox-off" id="checkbox-off">
-                    <label for="checkbox-off" class="parking">Парковка</label>
-            </div>
-            <div>
-                    <input type="checkbox" name="checkbox-off" id="checkbox-off2">
-                    <label for="checkbox-off2" class="wi-fi">Wi-Fi</label>
-            </div>   
-              <h2 class="house">Тип жилья:</h2>
-            <div>
-                    <input type="checkbox" name="checkbox-on" id="checkbox-on2" checked>
-                    <label for="checkbox-on2" class="checkbox-hotel">Гостиница</label>
-            </div>
-            <div>
-                    <input type="checkbox" name="checkbox-on" id="checkbox-on3" checked>
-                    <label for="checkbox-on3" class="checkbox-motel">Мотель</label>
-            </div>
-            <div>
-                    <input type="checkbox" name="checkbox-on" id="checkbox-on4" checked>
-                    <label for="checkbox-on4" class="checkbox-appartaments">Апартаменты</label>
-            </div>
-            <div class="filter-range">
+    <body>
+        <div class="page ">
+            <header class="page__header">
+                <nav class="page__header-navigation header-navigation">
+                    <ul class="header-navigation__list">
+                        <li class="header-navigation__list-item">
+                            <a href="info.html">Информация</a>
+                        </li>
+                        <li class="header-navigation__list-item">
+                            <a href="fotoandvideo.html">Фото и Видео</a>
+                        </li>
+                        <li class="main-logo">
+                            <a href="index.html">
+                            <img src="img/logo-sedona.svg" width="140" height="72" alt="Логотип Седона">
+                            </a>
+                        </li>
+                        <li class="header-navigation__list-item">
+                            <a href="map.html">Карта штата</a>
+                        </li>
+                        <li class="header-navigation__list-item">
+                            <a href="hotels.html">Гостинницы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="filter-background__list">
+                    <img src="img/filter-background.jpg" width="1200" height="562" alt="Картинка горы" class="filter-background">
+                </div>
+                </header> 
+                
+        <main class="main">
+
+        <section class="filter">
+
+        <div class="col col2">
+          <form action="#" method="get" class="filter-category">
+            <p class="filter-title">Инфраструктура:</p>
+            <p><input type="checkbox" id="infrastr-1" name="pool" value="pool" checked><label for="infrastr-1">Бассейн</label></p>
+            <p><input type="checkbox" id="infrastr-2" name="parking" value="parking"><label for="infrastr-2">Парковка</label></p>
+            <p><input type="checkbox" id="infrastr-3" name="wifi" value="wifi"><label for="infrastr-3">Wi-fi</label></p>
+          </form>
+
+          <form action="#" method="get" class="filter-category">
+            <p class="filter-title">Тип жилья:</p>
+            <p><input type="checkbox" id="type-1" name="hotel" value="hotel" checked><label for="type-1">Гостиница</label></p>
+            <p><input type="checkbox" id="type-2" name="motel" value="motel" checked><label for="type-2">Мотель</label></p>
+            <p><input type="checkbox" id="type-3" name="apartments" value="apartments" checked><label for="type-3">Апартаменты</label></p>
+          </form>
+        </div>
+        <div class="filter-range">
             <div class="filter-range-title">Стоимость в сутки (р):</div>
             <div class="price-controls">
-                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+                <label class="min-price">от <input type="number" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="number" name="max-price" value="3000"></label>
             </div>
             <div class="range-controls">
-            <div class="scale">
-            <div class="bar"></div>
+                <div class="scale">
+                    <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
             </div>
-            <div class="range-toggle range-toggle-min"></div>
-            <div class="range-toggle range-toggle-max"></div>
-            </div>
-            <button class="btn-transparent" type="submit">Показать</button>
-            </div>
-        </form>
-        </section>
-        <section>
-            <h2 class="found">Найдено 3:</h2>
-            <h3 class="sort">Сортировка:</h3>
-            <ul class="choice">
-                <li class="price"><a href="price.html">Цена</a></li>
-                <li class="type"><a href="type.html">По типу</a></li>
-                <li class="rating"><a href="rating.html">По рейтингу</a></li>
-            </ul>
-                <img src="img/icon-up-dir.svg" width="11" height="10" alt="стрелочка от меньшего" class="icon-up-dir">
-                <img src="img/icon-down-dir.svg" width="11" height="10" alt="стрелочка от большего" class="icon-down-dir">
-        </section>
-       <main class="container">
-        
+                <button class="btn-transparent" type="submit">Показать</button>
+        </div>
+<!--
            <h1 class="page-title">Гостиницы</h1>
         <section>
             <h2 clas="amara-resort-spa">AMARA RESORT AND SPA</h2>

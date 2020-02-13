@@ -34,7 +34,7 @@ ul {
     position: relative;
 }
 
-.page__header
+
 .header-navigation {
     position: absolute;
     top: 0;
@@ -49,14 +49,15 @@ ul {
     justify-content: space-around;
 }
 
-.header-navigation__list
+
 .header-navigation__list-item
 a {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     min-width: 239px;
     padding: 15px 0;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 26px;
     text-align: center;
     color: #000000;
@@ -64,19 +65,17 @@ a {
     text-transform: uppercase;
 }
 
-.header-navigation__list
+
 .header-navigation__list-item
 a:hover {
     color: #81b3d2;
 }
 
-.header-navigation__list
 .header-navigation__list-item
 a:active {
     color: rgba(0, 0, 0, 0.3);
 }
 
-.header-navigation__list
 .main-logo {
     position: relative;
     min-width: 140px;
@@ -94,13 +93,13 @@ a {
     justify-content: center;
 }
 
-.background-photo__list
+
 .background-photo {
     width: 100%;
     height: auto;
 }
 
-.background-photo__list
+
 .intro-mask {
     position: absolute;
     bottom: 0;
@@ -108,7 +107,7 @@ a {
     width: 100%;
 }
 
-.background-photo__list
+
 .intro-welcome {
     position: absolute;
     width: 459px;
@@ -128,23 +127,23 @@ a {
     background-color: #ffffff;
 }
 
-.block1
+
 .sedona {
     max-width: 440px;
     margin: 0 auto;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 26px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block1
+
 .five-reasons {
     margin-top: 38px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 26px;
     text-align: center;
     color: #333333;
@@ -156,7 +155,7 @@ a {
     height: 256px;
 }
 
-.block2 
+
 .block2__list {
     display: flex; 
     flex-direction: column; 
@@ -166,31 +165,31 @@ a {
     background-color: #81b3d2;
 }
 
-.block2
-.block2__list
+
+.block2__list,
 .present {
     max-width: 280px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
 }
 
-.block2
-.block2__list
+
+.block2__list,
 .number-one {
     max-width: 280px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
 }
 
-.block2
+.block2,
 .feature-picture {
     width: 100%;
     height: auto;
@@ -201,7 +200,7 @@ a {
     height: 330px;
 }
 
-.block3
+
 .block3__list-home {
     display: flex;
     flex-direction: column;
@@ -211,31 +210,28 @@ a {
     flex-grow: 1;
 }
 
-.block3
-.block3__list-home
+
+
 .home {
     margin-top: 30px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block3
-.block3__list-home
 .sojourn {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #333333;
     text-transform: uppercase
 }
 
-.block3
 .block3__list-burger {
     display: flex;
     flex-direction: column;
@@ -245,31 +241,26 @@ a {
     flex-grow: 1;
 }
 
-.block3
-.block3__list-burger
 .food {
     margin-top: 30px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block3
-.block3__list-burger
 .cool-burger {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #333333;
     text-transform: uppercase
 }
 
-.block3
 .block3__list-souvenirs {
     display: flex;
     flex-direction: column;
@@ -278,25 +269,21 @@ a {
     background-color: #ffffff;
     flex-grow: 1;
 }
-
-.block3
-.block3__list-souvenirs 
+ 
 .souvenirs {
     margin-top: 30px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block3
-.block3__list-souvenirs 
 .local-production {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #333333;
@@ -308,7 +295,7 @@ a {
     height: 256px;
 }
 
-.block4 
+
 .block4__list {
     display: flex;
     flex-direction: column;
@@ -318,32 +305,29 @@ a {
     background-color: #81b3d2;
 }
 
-.block4
-.block4__list
+
 .devil-bridge {
     max-width: 280px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
 }
 
-.block4
-.block4__list
+
 .venture {
     max-width: 280px;
     
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #ffffff;
     text-transform: uppercase
 }
 
-.block4
 .layer-5 {
     width: 100%;
     height: auto;
@@ -354,7 +338,6 @@ a {
     height: 256px;
 }
 
-.block5
 .block5__list-small-area {
     display: flex;
     flex-direction: column;
@@ -365,31 +348,26 @@ a {
     flex-grow: 1;
 }
 
-.block5
-.block5__list-small-area
 .small-area {
     margin-top: 30px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block5
-.block5__list-small-area
 .very-near {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #333333;
     text-transform: uppercase
 }
 
-.block5
 .block5__list-beautiful-road {
     display: flex;
     flex-direction: column;
@@ -399,31 +377,26 @@ a {
     flex-grow: 1;
 }
 
-.block5
-.block5__list-beautiful-road
 .beautiful-road {
     margin-top: 30px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block5
-.block5__list-beautiful-road
 .not-boringr {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #333333;
     text-transform: uppercase
 }
 
-.block5
 .block5__list-few-tourists {
     display: flex;
     flex-direction: column;
@@ -433,24 +406,20 @@ a {
     flex-grow: 1;
 }
 
-.block5
-.block5__list-few-tourists
 .few-tourists {
     margin-top: 30px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 21px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block5
-.block5__list-few-tourists
 .local-production {
     margin-top: 30px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 21px;
     text-align: center;
     color: #333333;
@@ -474,30 +443,26 @@ a {
     background-color: #ffffff;
 }
 
-.block6
-.block6__list
 .interested {
     margin-top: 48px;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 36px;
     text-align: center;
     color: #000000;
     text-transform: uppercase;
 }
 
-.block6
-.block6__list
 .expected-date {
     margin-top: 0px;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 24px;
     text-align: center;
     color: #333333;
     text-transform: uppercase
 }
-.block6
+
 .brown-button__list {
     display: flex;
     justify-content: space-around;
@@ -506,15 +471,14 @@ a {
     background-color: #766357;
 }
 
-.block6
-.brown-button__list
+
 .brown-button_list-button
 a {
     display: inline-block;
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 21px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 26px;
     text-align: center;
 
@@ -522,15 +486,12 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-.block6
-.brown-button__list
+
 .brown-button_list-button
 a:hover {
     color: #ffffff;
 }
 
-.block6
-.brown-button__list
 .brown-button_list-button
 a:active {
     color: rgba(255, 255, 255, 0.3);
@@ -551,7 +512,7 @@ a:active {
     padding-left: 56px;
     font: inherit;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 700px;
     text-align: left;
     color: #000000;
     background-color: #ffffff;
@@ -578,7 +539,7 @@ a:active {
     margin-top: 6px;
     font-size: 14px;
     line-height: 26px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .form-search-label-to {
@@ -588,7 +549,7 @@ a:active {
     margin-top: 6px;
     font-size: 14px;
     line-height: 26px;
-    font-weight: 700;
+    font-weight: 700px;
 }
 
 .form-search-field {
@@ -602,7 +563,7 @@ a:active {
     font: inherit;
     background-color: #f2f2f2;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 700px;
     color: #000000;
     border: none
 }
@@ -611,7 +572,7 @@ a:active {
     font: inherit;
     background-color: #ebebeb;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 700px;
     color: #000000;
 }
 
@@ -619,7 +580,7 @@ a:active {
     font: inherit;
     background-color: #ffffff;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 700px;
     color: #000000;
 }
 
@@ -665,7 +626,7 @@ a:active {
     text-transform: uppercase;
     font-size: 14px;
     color: #000000;
-    font-weight: 700;
+    font-weight: 700px;
     background-color: #f2f2f2;
     border: 2px solid #f2f2f2;
 }
@@ -741,7 +702,7 @@ a:active {
     margin-bottom: 54px;
     width: 458px;
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 700px;
     text-align: center;
     text-transform: uppercase;
     color: #ffffff;
@@ -789,7 +750,7 @@ a:active {
     color: #000000;
     font-size: 21px;
     line-height: 26px;
-    font-weight: 700;
+    font-weight: 700px;
     text-align: center;
 }
 
@@ -858,7 +819,7 @@ a:active {
     text-align: center;
 }
 
-.footer-coryright {
+.footer-copyright {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -866,4 +827,142 @@ a:active {
     margin: 0;
     color: #000000;
     text-align: center;
+}
+
+
+/*hotels.html*/
+
+}
+.filter-range {
+    margin-top: 132px;
+    margin:0px auto;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.filter-range-title {
+  margin-bottom: 9px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.price-controls {
+  position: relative;
+  
+  height: 36px;
+  margin-bottom: 20px;
+  
+  font-size: 0;
+
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+}
+
+.price-controls::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: 2px;
+  height: 22px;
+
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+}
+
+.price-controls label {
+  display: inline-block;
+
+  font-size: 14px;
+  line-height: 38px;
+  vertical-align: top;
+
+  cursor: pointer;
+}
+
+.price-controls .min-price,
+.price-controls .max-price {
+  width: 90px;
+  padding-left: 65px;
+}
+
+.price-controls input {
+  width: 50px;
+  margin: 0;
+
+  color: inherit;
+  font: inherit;
+
+  background: none;
+  border: none;
+}
+
+.range-controls {
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.range-controls .scale {
+  height: 2px;
+
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.range-controls .bar {
+  width: 80%;
+  height: 2px;
+
+  background: #ffffff;
+}
+
+.range-toggle {
+  position: absolute;
+  top: -9px;
+  
+  width: 4px;
+  height: 4px;
+
+  background: #ababab;
+  border: 8px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background: #1c4f80;
+}
+
+.range-toggle-min {
+  left: 0;
+}
+
+.range-toggle-max {
+  left: 80%;
+}
+
+.btn-transparent {
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-transparent:hover {
+  color: #000000;
+
+  background: #ffffff;
 }
