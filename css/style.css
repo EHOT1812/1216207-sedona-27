@@ -48,8 +48,7 @@ ul {
     justify-content: space-around;
 }
 
-.header-navigation__list-item
-a {
+.header-navigation__list-item a { 
     display: flex;
     justify-content: space-around;
     min-width: 239px;
@@ -63,13 +62,11 @@ a {
     text-transform: uppercase;
 }
 
-.header-navigation__list-item
-a:hover {
+.header-navigation__list-item a:hover {
     color: #81b3d2;
 }
 
-.header-navigation__list-item
-a:active {
+.header-navigation__list-item a:active {
     color: rgba(0, 0, 0, 0.3);
 }
 
@@ -78,8 +75,8 @@ a:active {
     min-width: 140px;
 }
 
-.main-logo
-a {
+.main-logo,
+.a {
     position: absolute;    
 }
 
@@ -414,8 +411,7 @@ a {
     max-height: 330px;
 }
 
-.block6
-.block6__list {
+.block6 .block6__list {
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -452,8 +448,7 @@ a {
     background-color: #766357;
 }
 
-.brown-button_list-button
-a {
+.brown-button_list-button a {
     display: inline-block;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -467,14 +462,13 @@ a {
     text-transform: uppercase;
 }
 
-.brown-button_list-button
-a:hover {
+.brown-button_list-button a:hover {
     color: #ffffff;
 }
 
-.brown-button_list-button
-a:active {
-    color: rgba(255, 255, 255, 0.3);  
+.brown-button_list-button a:active {
+    color: rgba(255, 255, 255, 0.3);
+    
 }
 
 .form {
@@ -497,6 +491,7 @@ a:active {
     background-color: #ffffff;
     box-shadow: 0px 7px 15px 0 rgba(0, 1, 1, 0.15);
 }
+
 
 .form-body {
     border: none;
@@ -697,6 +692,7 @@ a:active {
     background-color: #5496bd;
     color: rgba(255, 255, 255, 0.3)
 }
+
 
 .page-footer {
     max-width: 1200px;
