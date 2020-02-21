@@ -72,25 +72,47 @@ img {
     list-style-type: none;
 }
 
-.header-navigation__list-item a { 
+.header-navigation__list-item-left a { 
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     min-width: 239px;
     padding: 15px 0;
     font-size: 14px;
     font-weight: 700;
     line-height: 26px;
-    text-align: center;
+    text-align: left;
     color: #000000;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.header-navigation__list-item a:hover {
+.header-navigation__list-item-left a:hover {
     color: #81b3d2;
 }
 
-.header-navigation__list-item a:active {
+.header-navigation__list-item-left a:active {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.header-navigation__list-item-right a { 
+    display: flex;
+    justify-content: flex-end;
+    min-width: 239px;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: right;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-navigation__list-item-right a:hover {
+    color: #81b3d2;
+}
+
+.header-navigation__list-item-right a:active {
     color: rgba(0, 0, 0, 0.3);
 }
 
@@ -841,6 +863,10 @@ img {
     background: #4b769e url(../img/filter-background.jpg) no-repeat 50% 20%;
 }
 
+.filter h2 {
+    margin-bottom: 25px;
+    font-size: 16px;
+}
 .filter-menu {
     display: block;
     margin-top: 0em;
@@ -851,7 +877,7 @@ img {
     width: 25%;
     margin-top: 87px;
     vertical-align: top;
-    padding: 27px 10px 30px;
+    padding: 27px 72px 30px;
     color: #ffffff;
     box-sizing: border-box;
     
@@ -1150,6 +1176,7 @@ img {
 
 .sorting-filters a {
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
     border-bottom: 1px dotted #81b3d2;
 }
 
@@ -1157,7 +1184,7 @@ img {
     display: inline-block;
     width: 185px;
     padding: 31.5px 0 28.5px;
-    padding-right: 83px;
+    padding-right: 100px;
     text-align: right;
     vertical-align: top;
     box-sizing: border-box;
@@ -1171,8 +1198,8 @@ img {
 
 .sorting-btns .icon-up-dir::before, .sorting-btns .icon-down-dir::before {
     margin: 0;
-    margin-right: 73px;
-    padding: 0 5px;
+    margin-right: 75px;
+    padding: 0 8px;
 }
 
 .icon-up-dir::before {
