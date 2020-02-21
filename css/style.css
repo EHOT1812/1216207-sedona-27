@@ -16,10 +16,31 @@ body {
     background-repeat: no-repeat;
 }
 
-ul {
+h1 {
     margin: 0;
-    padding: 0;
-    list-style-type: none;
+}
+
+h2 {
+    display: block;
+    font-size: 16px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    background-color: transparent;
+}
+img {
+    border: 0;
+}
+
+.cover {
+    box-shadow: 0 0 30px 10px #dbdbdb;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .page{
@@ -46,6 +67,9 @@ ul {
 .header-navigation__list {
     display: flex;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .header-navigation__list-item a { 
@@ -365,7 +389,7 @@ ul {
     text-transform: uppercase;
 }
 
-.not-boringr {
+.going__to__sedona  {
     margin-top: 30px;
     font-size: 14px;
     font-weight: 400;
@@ -443,6 +467,9 @@ ul {
 .brown-button__list {
     display: flex;
     justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     min-width: 568px;
     max-height: 86px;
     background-color: #766357;
@@ -531,7 +558,6 @@ ul {
     padding-left: 14px;
     margin-bottom: 30px;
     max-height: 38px;
-    font-size: 14px;
     line-height: 26px;
     font: inherit;
     background-color: #f2f2f2;
@@ -737,6 +763,9 @@ ul {
 .social-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
     align-items: center;
     justify-content: center;
     margin: 0;
@@ -744,7 +773,6 @@ ul {
     padding: 0;
     width: 154px;
     text-align: center;
-    list-style: none;
 }
 
 .social-list li {
@@ -806,27 +834,6 @@ ul {
 
 /*hotels.html*/
 
-h1 {
-    margin: 0;
-}
-
-h2 {
-    display: block;
-    font-size: 16px;
-    line-height: 21px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 700;
-    margin: 0;
-}
-
-a {
-    background-color: transparent;
-}
-
-.catolog-maim {
-    margin-top: -14px;
-}
 
 .filter {
     width: 100%;
@@ -837,10 +844,6 @@ a {
 .filter-menu {
     display: block;
     margin-top: 0em;
-}
-
-img {
-    border: 0;
 }
 
 .one-fourth {
@@ -916,9 +919,9 @@ img {
 }
 .filter-range {
     display: block;
-    float: right;
-    width: 330px;
+    margin-left: auto;
     margin-right: 72px;
+    width: 330px;
 }
 
 .filter-range h2 {
@@ -1004,11 +1007,11 @@ img {
     background: #ffffff;
 }
 
-.range-controls .range-toggel-min {
+.range-controls .range-toggle-min {
     left: 0;
 }
 
-.range-controls .range-toggel {
+.range-controls .range-toggle {
     position: absolute;
     top: -9px;
     width: 4px;
@@ -1019,11 +1022,11 @@ img {
     box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
     cursor: pointer;
 }
-.range-controls .range-toggel-max {
+.range-controls .range-toggle-max {
     left: 253px;
 }
 
-.range-controls .range-toggel {
+.range-controls .range-toggle {
     position: absolute;
     top: -9px;
     width: 4px;
@@ -1210,12 +1213,15 @@ img {
 }
 
 .view-result {
+    display: flex;
+    width: auto;
+    max-height: 151px;
     background: #ffffff;
     border-bottom: 1px solid #e5e5e5;
 }
 
 .view-result .photo {
-    display: inline-block;
+    display: flex;
     width: 235px;
     padding: 30px 0;
     padding-left: 72px;
@@ -1287,16 +1293,12 @@ img {
     background-color: #766357;
 }
 
-.ratio-block {
-    float: right;
-    width: 185px;
-    padding-top: 28px;
-}
-
-.ratio-block .stars {
-    float: right;
-    margin-right: 72px;
-    margin-bottom: 43px;
+.stars {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: 17px;
+    margin-bottom: 47px;
     font-size: 18px;
     color: #81b3d2;
 }
@@ -1334,14 +1336,13 @@ img {
     speak: none;
 }
 
-.ratio-block .ratio {
-    float: right;
-    padding: 3px 13px;
-    margin-right: 52px;
-    background: #f2f2f2;
+.ratio-block {
+    padding-top: 28px;
 }
 
-.ratio{
+.ratio {
+    padding: 3px 13px;
+    background: #f2f2f2;
     font-size: 14px;
     line-height: 21px;
     text-align: center;
