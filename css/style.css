@@ -134,7 +134,7 @@ img {
 
 .background-photo {
     width: 100%;
-    height: auto;
+    height: 546px;
 }
 
 .intro-mask {
@@ -367,13 +367,13 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 60px;
     background-color: #eeeeee;
     flex-grow: 1;
 }
 
 .small-area {
-    margin-top: 30px;
+    width: 153px;
+    margin: 0 auto 25px;
     font-size: 21px;
     font-weight: 700;
     line-height: 21px;
@@ -383,7 +383,8 @@ img {
 }
 
 .very-near {
-    margin-top: 30px;
+    width: 270px;
+    margin: 20px auto 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -402,7 +403,8 @@ img {
 }
 
 .beautiful-road {
-    margin-top: 30px;
+    width: 153px;
+    margin: 0 auto 25px;
     font-size: 21px;
     font-weight: 700;
     line-height: 21px;
@@ -412,7 +414,8 @@ img {
 }
 
 .going__to__sedona  {
-    margin-top: 30px;
+    width: 270px;
+    margin: 20px auto 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -431,7 +434,8 @@ img {
 }
 
 .few-tourists {
-    margin-top: 30px;
+    width: 153px;
+    margin: 0 auto 25px;
     font-size: 21px;
     font-weight: 700;
     line-height: 21px;
@@ -441,7 +445,8 @@ img {
 }
 
 .local-production {
-    margin-top: 30px;
+    width: 270px;
+    margin: 20px auto 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
