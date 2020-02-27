@@ -1,4 +1,4 @@
-let link = document.querySelector('.brown-button');
+let link = document.querySelector('.brown-button__list');
 let popup = document.querySelector('.form-search');
 
 link.addEventListener('click', function(evt) {
