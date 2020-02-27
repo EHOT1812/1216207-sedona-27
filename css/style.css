@@ -502,10 +502,9 @@ img {
     background-color: #766357;
 }
 
-.brown-button_list-button a {
+.brown-button_list-button p {
     display: inline-block;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    vertical-align: top;
     font-size: 21px;
     font-weight: 700;
     line-height: 26px;
@@ -516,11 +515,11 @@ img {
     text-transform: uppercase;
 }
 
-.brown-button_list-button a:hover {
+.brown-button_list-button p:hover {
     color: #ffffff;
 }
 
-.brown-button_list-button a:active {
+.brown-button_list-button p:active {
     color: rgba(255, 255, 255, 0.3);
     
 }
@@ -551,50 +550,6 @@ img {
   display: block;
   
   animation: bounce 0.6s;
-}
-
-.modal-error {
-  animation: shake 0.6s;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(-2000px);
-  }
-
-  70% {
-    transform: translateY(30px);
-  }
-
-  90% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes shake {
-  0%,
-  100% {
-    transform: translateX(0);
-  }
-
-  10%,
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: translateX(-10px);
-  }
-
-  20%,
-  40%,
-  60%,
-  80% {
-    transform: translateX(10px);
-  }
 }
 
 .form-body {
@@ -929,6 +884,7 @@ img {
 
 .one-fourth {
     display: inline-block;
+    vertical-align: top;
     width: 25%;
     margin-top: 87px;
     vertical-align: top;
@@ -987,6 +943,7 @@ img {
 
 .two-fourth {
     display: inline-block;
+    vertical-align: top;
     width: 50%;
     padding-top: 26px;
     vertical-align: top;
@@ -1042,6 +999,7 @@ img {
 
 .price-controls .min-price {
     display: inline-block;
+    vertical-align: top;
     width: 85px;
     margin-left: 64px;
     line-height: 32px;
@@ -1054,6 +1012,7 @@ img {
 
 .price-controls .max-price {
     display: inline-block;
+    vertical-align: top;
     width: 85px;
     margin-left: 64px;
     line-height: 32px;
@@ -1145,6 +1104,7 @@ img {
 
 .results .match {
     display: inline-block;
+    vertical-align: top;
     width: 235px;
     padding: 30px 0;
     padding-left: 72px;
@@ -1186,6 +1146,7 @@ img {
 
 .results .sorting {
     display: inline-block;
+    vertical-align: top;
     width: 780px;
     padding: 36px 0 32px;
     font-size: 12px;
@@ -1203,6 +1164,7 @@ img {
 
 .sorting .sorting-filters {
     display: inline-block;
+    vertical-align: top;
     padding: 0;
     margin: 0;
     vertical-align: top;
@@ -1218,6 +1180,7 @@ img {
 
 .sorting-filters li {
     display: inline-block;
+    vertical-align: top;
     list-style: none;
     padding-left: 32px;
     vertical-align: top;
@@ -1237,6 +1200,7 @@ img {
 
 .results .sorting-btns {
     display: inline-block;
+    vertical-align: top;
     width: 185px;
     padding: 31.5px 0 28.5px;
     padding-right: 100px;
@@ -1247,6 +1211,7 @@ img {
 
 .sorting-btns a {
     display: inline-block;
+    vertical-align: top;
     font-size: 23px;
 }
 
@@ -1261,6 +1226,7 @@ img {
     content: "";
     position: absolute;
     display: inline-block;
+    vertical-align: top;
     width: 11px;
     height: 10px;
     background-image: url('../img/icon-up-dir.png');
@@ -1273,6 +1239,7 @@ img {
     content: "";
     position: absolute;
     display: inline-block;
+    vertical-align: top;
     width: 11px;
     height: 10px;
     background-image: url('../img/icon-down-dir.png');
@@ -1285,6 +1252,7 @@ img {
 [class*=" icon-"]::before {
     
     display: inline-block;
+    vertical-align: top;
     width: 1em;
     font-weight: 400;
     line-height: 1em;
@@ -1319,6 +1287,7 @@ img {
 
 .view-result .hotel-container {
     display: inline-block;
+    vertical-align: top;
     padding-top: 25px;
     padding-bottom: 30px;
     padding-left: 2px;
@@ -1332,6 +1301,7 @@ img {
 
 .hotel-title a {
     display: inline-block;
+    vertical-align: top;
     margin-bottom: 7px;
     line-height: 26px;
     color: inherit;
@@ -1340,6 +1310,7 @@ img {
 
 .hotel-container .hotel-type {
     display: inline-block;
+    vertical-align: top;
     width: 110px;
     margin-right: 6px;
     vertical-align: top;
@@ -1357,6 +1328,7 @@ img {
 
 .hotel-container .btn {
     display: inline-block;
+    vertical-align: top;
     padding: 3px 16px;
     margin-right: 6px;
     vertical-align: top;
@@ -1366,6 +1338,7 @@ img {
 
 .hotel-container .reserve {
     display: inline-block;
+    vertical-align: top;
     width: 142px;
     vertical-align: top;
 }
@@ -1393,6 +1366,7 @@ img {
     content: "";
     position: absolute;
     display: inline-block;
+    vertical-align: top;
     width: 18px;
     height: 17px;
     background-image: url('../img/star.svg');
@@ -1408,6 +1382,7 @@ img {
 [class^="icon"]::before,
 [class*=" icon-"]::before {
     display: inline-block;
+    vertical-align: top;
     font-weight: 400;
     line-height: 1em;
     text-align: center;
