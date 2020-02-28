@@ -491,18 +491,18 @@ img {
     text-transform: uppercase
 }
 
-.brown-button__list {
+.brown-button__list  {
     display: flex;
     justify-content: space-around;
     margin: 0;
     padding: 0;
     list-style-type: none;
     min-width: 568px;
-    max-height: 86px;
+    min-height: 86px;
     background-color: #766357;
 }
 
-.brown-button_list-button p {
+.brown-button_list-button span {
     display: inline-block;
     vertical-align: top;
     font-size: 21px;
@@ -515,11 +515,11 @@ img {
     text-transform: uppercase;
 }
 
-.brown-button_list-button p:hover {
+.brown-button_list-button:hover {
     color: #ffffff;
 }
 
-.brown-button_list-button p:active {
+.brown-button_list-button:active {
     color: rgba(255, 255, 255, 0.3);
     
 }
@@ -763,7 +763,8 @@ img {
 }
 
 .footer-container {
-    padding: 0 10px;
+    display: inline-block;
+    justify-content: center; 
 }
 
 .page-footer .footer-container {
@@ -775,9 +776,11 @@ img {
 }
 
 .contacts-footer {
-    width: 136px;
-    margin: 0;
-    margin-left: 118px;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 280px;
+    margin: -18px;
+    margin-left: 10px;
     margin-right: 253px;
     color: #000000;
     font-size: 21px;
@@ -786,11 +789,25 @@ img {
     text-align: center;
 }
 
+.tel-footer {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 280px;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 253px;
+    color: #000000;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: center;
+}
 .footer-social {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 .social-list {
     display: flex;
@@ -855,6 +872,11 @@ img {
 
 .footer-copyright {
     display: flex;
+    width: 74px;
+    height: 11px;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
     align-items: center;
     justify-content: center;
     width: 200px;
@@ -863,7 +885,10 @@ img {
     text-align: center;
 }
 
-
+.logo-htmlacademy {
+    display: flex;
+    padding-left: 8px;
+}
 /*hotels.html*/
 
 
