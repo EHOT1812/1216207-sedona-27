@@ -1,0 +1,1 @@
+const ESC_KEY_CODE=27,link=document.querySelector(".brown-button__list"),popup=document.querySelector(".form-search");link.addEventListener("click",function(n){n.preventDefault();popup.classList.toggle("modal-show")});window.addEventListener("keydown",function(n){n.keyCode===ESC_KEY_CODE&&popup.classList.contains("modal-show")&&popup.classList.remove("modal-show")})
